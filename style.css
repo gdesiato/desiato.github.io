@@ -2,16 +2,79 @@ p { font-family: Helvetica;
     color: #333
 }
 
+body {
+    background-color: #dedfe1;
+}
+
+.header {
+    margin-top: 100px;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-bottom: 100px;
+}
+
+.main {
+    margin-top: 50px;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-bottom: 0px;
+}
+
+.footer {
+    margin-top: 30px;
+    margin-left: 400px;
+    margin-right: 400px;
+
+
+}
+
 .logo {
     font-family: 'Helvetica';
-    font-size: 36px;
+    font-size: 30px;
     color: #333;
     margin-bottom: -10px;
 }
 
 .title {
     font-family: 'Helvetica';
-    font-size: 24px;
+    font-size: 30px;
     color: #333;
     margin-top: 5px;
 }
+
+.projects {
+    width: 100%;
+    font-family: 'Helvetica';
+    color: #333;
+}
+
+.project {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+}
+
+.project-image {
+    width: 300px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.project-info {
+    flex: 1;
+}
+
+.project-title {
+    margin-top: 0;
+}
+
+.project-description {
+    margin-top: 10px;
+}
+
+
+
+
+
